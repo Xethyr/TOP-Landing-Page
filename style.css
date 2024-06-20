@@ -46,6 +46,7 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 12%;
     height: 25%;
     background-color: #1f2937;
@@ -54,9 +55,10 @@ a {
 
 .hero-img {
     flex-basis: 100%;
+    padding: 110px 0;
     background-color: grey;
     color: #E5E7EB;
-    margin: 10% 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,6 +106,7 @@ a {
     border: none;
     border-radius: 5px;
     padding: 5px 20px;
+    cursor: pointer;
 }
 
 .cards {
@@ -166,14 +169,48 @@ a {
 
 .action-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 12%;
-    margin: 0 10%;
+    margin: 0;
     background-color: #3882F6;
     border-radius: 8px;
+    align-items: center;
+    gap: 12%;
 }
 
 .action-text {
     margin: 0;
-    padding: 15% 0;
+    padding: 12% 0;
+    color: white;
+    text-wrap: nowrap;
+}
+
+.action-text h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.action-text p {
+    padding: 0;
+    margin: 0;
+}
+
+.sign-up-2 {
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    text-wrap: nowrap;
+    flex-shrink: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 4%;
+    background-color: #1f2937;
+    color:#E5e7eb
 }
