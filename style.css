@@ -48,25 +48,22 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 0 12%;
-    height: 25%;
+    flex: 1;
     background-color: #1f2937;
     gap: 10px;
 }
 
 .hero-img {
-    flex-basis: 100%;
-    padding: 110px 0;
+    height: 30%;
+    padding: 0;
     background-color: grey;
     color: #E5E7EB;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-basis: 100%;
 }
 
 .hero-text {
     max-width: 50%;
-    flex-basis: 100%;
     margin: 10% 0;
 }
 
@@ -84,11 +81,11 @@ a {
 }
 
 .info {
-    height: 25%;
+    flex: 1;
 }
 
 .quote {
-    min-height: 25%;
+    flex: 1;
 }
 
 .info h1 {
